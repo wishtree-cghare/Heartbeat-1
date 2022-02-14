@@ -1,0 +1,253 @@
+/*----General css*/
+body{
+    font-family: "Lato",sans-serif;
+}
+button{
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+.btn-1{
+    background: #22C6F9;
+}
+.btn-2{
+    background: #FC3990;
+}
+.box{
+    width: 100%;
+    padding: 40px 120px;
+}
+/*------------Home------------*/
+#home{
+    padding-top: 50px;
+}
+.main-heading{
+    position: relative;
+}
+#home h1{
+    margin-top: 80px;
+    width: 444px;
+    height: 162px;
+}
+#home > p{
+    width: 434px;
+    height: 82px;
+}
+#home h2{
+    width: 90px;
+    height: 22px;
+    font-size: 18px;
+}
+.home-bg-1 {
+    position: absolute;
+}
+/*-----Navigation bar*/
+.logo{
+    width: 134px;
+    height: 100px;
+    margin-top: 20px;
+}
+.navigation-bar > p{
+    text-align: right;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 0 75px 0 0;
+}
+.navigation-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0 0 10px;
+}
+.navigation-bar ul li a{
+    padding: 0 10px;
+}
+
+
+.platform h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.influencers{
+    position: relative;
+
+}
+.influencers :nth-child(2) img{
+    padding-top: 50px;
+}
+.influencers h3{
+    padding: 100px 0 20px 0;
+}
+.influencers p{   
+    width: 450px;
+    height: 100px;
+}
+.influencers-info{
+    padding-left: 30px;
+}
+.influencers-info button{
+    margin-top: 30px;
+}
+.home-bg-2{
+    position: absolute;
+    right: 0;
+    left: 850px;
+    z-index: -1;
+    width: 464px;
+    height: 464px;
+}
+
+
+.row-6{
+    padding-top: 200px;
+}
+.row-6-info{
+    padding-right: 50px;
+}
+.row-6-info h3{
+    width: 434px;
+    height: 74px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.row-6-info p{
+    width: 533px;
+    height: 106px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.row-6-info img{
+    width: 103px;
+    height: 100px;
+    margin-top: 20px;
+    
+}
+.row-6-info h5{
+    padding-top: 10px;
+   font-size: 15px; 
+   text-align: center;
+}
+
+.row-7{
+    padding-top: 150px;
+}
+.row-7-info {
+   padding-top: 130px;
+}
+.row-7-info h4{
+    font-size: 30px;
+    width: 494px;
+    height: 36px;
+    padding-bottom: 50px;
+    font-weight: 600;
+}
+.row-7-info p{
+    font-size: 15px;
+    width: 501px;
+    height: 62px;
+   
+}
+.row-8{
+    position: relative;
+}
+.row-8 h3{
+    size: 30px;
+    font-weight: 600;
+}
+.row-8 p{
+    width: 674px;
+    height: 40px;
+    font-size: 15px;
+    margin: 10px 0 20px 100px;
+}
+
+.home-bg-3{
+    position: absolute;
+    right: 0;
+    top:70px;
+    left: 1000px;
+    z-index: -1;
+    width: 248px;
+    height: 248px;
+}
+.row-9{
+    position: relative;
+}
+.home-bg-4{
+    position: absolute;
+    top:-100px;
+    left: -220px;
+    z-index: -1;
+    width: 464px;
+    height: 464px;
+}
+.row-9 h3{
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.row-9 img{
+    margin: 20px 18px;
+}
+.row-10{
+    padding-top: 60px;
+}
+.row-10 h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.row-10 img{
+    border-radius: 3%;
+}
+.row-11{
+    background: url('../img//Mask\ Group\ 5.png') no-repeat;
+    width: 100%;
+    height: 497px;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+.row-11 form{
+    padding: 20px 0 10px 40px;
+    background-color: #fff;
+    height: 365px;
+}
+.row-11 form h3{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.row-11 form p label{
+    font-size: 15px;
+    width: 110px;
+}
+.row-11 form p label.input{
+    width: 300px;
+    border-bottom: 1px solid;  
+}
+.row-11 button{
+    margin: 10px 0 0 110px;
+}
+.row-12{
+    padding-top: 20px;
+}
+.row-12 .social img{
+    padding: 20px 0 0 35px;
+}
+.row-12 h3{
+    font-size: 15px;
+    padding-top: 20px;
+}
+.row-12  {
+    list-style: none;
+    text-align: left;
+}
+.footer{
+    background-color: #EBEBEB;
+    margin: 20px 0;
+}
+.footer p{
+    padding: 8px 0;
+}
